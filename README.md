@@ -28,23 +28,23 @@ The major questions I gained to seek an understanding about were:
 # Data Understanding
 The dataset has around 4.6 million records, after cleaning null records. There are 18 attributes in every record. 
 
- |-- artist: string (nullable = true) - name of the artist, if a music page is visited
- |-- auth: string (nullable = true) - whether the user is logged in or not
- |-- firstName: string (nullable = true) - first name of the user
- |-- gender: string (nullable = true) - gender of the user
- |-- itemInSession: long (nullable = true) - item number
- |-- lastName: string (nullable = true) - last name of the user
- |-- length: double (nullable = true) - length of the songs in seconds
- |-- level: string (nullable = true) - paid or free subscription
- |-- location: string (nullable = true) - city and state where the song was heard
- |-- method: string (nullable = true) - HTML data (PUT, GET etc.)
- |-- page: string (nullable = true) - which page is being visited by the user
- |-- registration: long (nullable = true) - unique id for each user
- |-- sessionId: long (nullable = true) - unique id for each session
- |-- song: string (nullable = true) - song name being played (if on song page)
- |-- status: long (nullable = true) - unique codes for status of each user
- |-- ts: long (nullable = true) - timestamp of visiting page
- |-- userAgent: string (nullable = true) - data for the device and OS being used
+1. artist: string (nullable = true) - name of the artist, if a music page is visited
+2. auth: string (nullable = true) - whether the user is logged in or not
+3. firstName: string (nullable = true) - first name of the user
+4. gender: string (nullable = true) - gender of the user
+5. itemInSession: long (nullable = true) - item number
+6. lastName: string (nullable = true) - last name of the user
+7. length: double (nullable = true) - length of the songs in seconds
+8. level: string (nullable = true) - paid or free subscription
+9. location: string (nullable = true) - city and state where the song was heard
+10. method: string (nullable = true) - HTML data (PUT, GET etc.)
+11. page: string (nullable = true) - which page is being visited by the user
+12. registration: long (nullable = true) - unique id for each user
+13. sessionId: long (nullable = true) - unique id for each session
+14. song: string (nullable = true) - song name being played (if on song page)
+15. status: long (nullable = true) - unique codes for status of each user
+16. ts: long (nullable = true) - timestamp of visiting page
+17. userAgent: string (nullable = true) - data for the device and OS being used
 
 
 # Acknowledgements
