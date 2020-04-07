@@ -12,20 +12,17 @@ The auxiliary data can be accessed through the S3 storage link given inside the 
 6. numpy
 
 # Motivation
-The idea behind this project is to understand how to conduct more Big Data analysis, understand how AWS works, use Pyspark and conduct data visualization and machine learning. The idea is to do it with a hands-on approach.
-
-# Repository files
-1. Sparkify.ipynb: This is the smaller dataset. If you want, you can try to use the dataset, and see how the code can be replicated on a small scale
-2. pyspark-sparkify.ipynb: This is the main notebook. It contains all the exploratory analysis, data wrangling and machine learning analysis.
-
-# Business Understanding
-The major questions I gained to seek an understanding about were:
+The idea behind this project is to understand how to conduct more Big Data analysis, understand how AWS works, use Pyspark and conduct data visualization and machine learning. The idea is to do it with a hands-on approach. The major questions I gained to seek an understanding about were:
 
 1) Which are the most important factors in deciding the churn rate?
 2) What is the click-through rate for the individual pages of ?
 3) Can we develop a model which predicts users who will leave the app soon, so that we can provide them promotional offers to get them to stay? 
 
-# Data Understanding
+# Repository files
+1. Sparkify.ipynb: This is the smaller dataset. If you want, you can try to use the dataset, and see how the code can be replicated on a small scale
+2. pyspark-sparkify.ipynb: This is the main notebook. It contains all the exploratory analysis, data wrangling and machine learning analysis.
+
+# Dataset
 The dataset has around 4.6 million records, after cleaning null records. There are 18 attributes in every record. 
 
 1. artist: string (nullable = true) - name of the artist, if a music page is visited
